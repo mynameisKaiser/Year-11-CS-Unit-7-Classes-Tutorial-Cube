@@ -21,11 +21,11 @@ public class Cube {
         }
         this.side=side;
     }
-    public int getSurfaceArea(){
+    public int calculateSurfaceArea(){
         int face=side*side;
         return face*6;
     }
-    public int getVolume(){
+    public int calculateVolume(){
         return side*side*side;
     }
     public String toString(){
